@@ -1,0 +1,118 @@
+/* reseteo de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* fuente */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+
+/* estilos para el encabezado */
+header {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+header h1 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #333;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 10px 20px;
+    border-radius: 50px;
+    transition: all 0.2s ease-in-out;
+}
+
+nav ul li a:hover {
+    background-color: #2f2f2f;
+    color: #fff;
+}
+
+/* estilos para la sección principal */
+main {
+    margin-top: 80px;
+}
+
+section {
+    padding: 80px;
+    text-align: center;
+    background-color: #e6f3f0; /* verde claro */
+}
+
+section h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+section p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 40px;
+}
+
+/* estilos para el pie de página */
+footer {
+    padding: 40px;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+.fade-in {
+  opacity: 0;
+  animation: fade-in 2s ease-out forwards;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+.title-container {
+	margin-top: 20px;
+}
+h2 {
+  margin-top: 50px; 
+}
+section {
+   margin-bottom: 50px;
+}
+
+
+
+
