@@ -54,7 +54,7 @@ nav ul li a:hover {
     color: #fff;
 }
 
-/* estilos para la secciÛn principal */
+/* estilos para la secci√≥n principal */
 main {
     margin-top: 80px;
 }
@@ -82,7 +82,7 @@ section p {
     margin-bottom: 40px;
 }
 
-/* estilos para el pie de p·gina */
+/* estilos para el pie de p√°gina */
 footer {
     padding: 40px;
     text-align: center;
@@ -111,6 +111,10 @@ h2 {
 }
 section {
    margin-bottom: 50px;
+}
+img {
+  max-width: 100%;
+  height: auto;
 }
 
 
