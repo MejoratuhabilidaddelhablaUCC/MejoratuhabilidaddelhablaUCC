@@ -125,7 +125,9 @@ section {
     transform: translateX(5px); /* Mueve el texto horizontalmente cuando se señala con el cursor */
     transition: transform 0.2s ease; /* Añade una transición suave para el movimiento */
 }
-
+body {
+    background: linear-gradient(to bottom right, #ffcc00, #ff6600, #cc0099, #0099cc);
+}
 
 
 
