@@ -22,16 +22,33 @@
 	<section class="comments-section">
         <h2>Comentarios</h2>
         <div class="comment">
-            <p>Like si te gusto la actividad de producto loco</p>
-            <button class="like-button">Like</button>
+            <p>Dale like si te gusto la actividad del "producto loco"</p>
+            <button class="like-button" onclick="addLike(this)">Like</button>
+            <span class="likes-count">0</span>
         </div>
         <div class="comment">
             <p>Otro comentario aquí.</p>
-            <button class="like-button">Like</button>
+            <button class="like-button" onclick="addLike(this)">Like</button>
+            <span class="likes-count">0</span>
         </div>
+        <!-- Puedes agregar más comentarios aquí -->
     </section>
-	<footer>
-		<p>Derechos reservados - ¡Mi sitio web!</p>
-	</footer>
+    <footer>
+        <p>Derechos reservados - ¡Mi sitio web!</p>
+    </footer>
+
+    <script>
+        // Función para agregar likes
+        function addLike(button) {
+            // Obtener el elemento de conteo de likes dentro del comentario
+            var likesCountElement = button.nextElementSibling;
+
+            // Obtener el valor actual de likes
+            var currentLikes = parseInt(likesCountElement.textContent);
+
+            // Incrementar el valor de likes y actualizar el texto
+            likesCountElement.textContent = currentLikes + 1;
+        }
+    </script>
 </body>
 </html>
