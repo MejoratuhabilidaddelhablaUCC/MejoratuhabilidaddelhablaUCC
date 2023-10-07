@@ -121,7 +121,10 @@ section {
   background-color: ##2ad1aa;
   color: ##b51607; 
 }
-
+.intro-section h2:hover {
+    transform: translateX(5px); /* Mueve el texto horizontalmente cuando se señala con el cursor */
+    transition: transform 0.2s ease; /* Añade una transición suave para el movimiento */
+}
 
 
 
