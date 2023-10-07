@@ -128,7 +128,6 @@ section {
 body {
     background: linear-gradient(to bottom right, #ffcc00, #ff6600, #cc0099, #0099cc);
 }
-/* Cambiar el fondo de la página con efecto 3D */
 body {
     perspective: 800px; /* Define la perspectiva para el efecto 3D */
 }
