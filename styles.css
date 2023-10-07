@@ -133,7 +133,7 @@ body {
 }
 
 .intro-section {
-    background: linear-gradient(to bottom right, #ffcc00, #ff6600, #cc0099, #0099cc);
+    background: linear-gradient(to bottom right, #3498db, #2ecc71, #f1c40f, #ff6b81);
     padding: 20px; /* Añade espacio alrededor del contenido */
     display: inline-block;
     transform: rotateY(10deg); /* Gira el bloque en el eje Y */
