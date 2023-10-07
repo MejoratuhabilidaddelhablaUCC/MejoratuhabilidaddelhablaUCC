@@ -128,6 +128,24 @@ section {
 body {
     background: linear-gradient(to bottom right, #ffcc00, #ff6600, #cc0099, #0099cc);
 }
+/* Cambiar el fondo de la página con efecto 3D */
+body {
+    perspective: 800px; /* Define la perspectiva para el efecto 3D */
+}
+
+.intro-section {
+    background: linear-gradient(to bottom right, #ffcc00, #ff6600, #cc0099, #0099cc);
+    padding: 20px; /* Añade espacio alrededor del contenido */
+    display: inline-block;
+    transform: rotateY(10deg); /* Gira el bloque en el eje Y */
+    transform-style: preserve-3d; /* Conserva el efecto 3D */
+    margin: 10px; /* Agrega margen entre los bloques */
+    transition: transform 0.3s ease; /* Añade una transición suave para el efecto */
+}
+
+.intro-section:hover {
+    transform: rotateY(0deg); /* Restaura la rotación a 0 grados al pasar el cursor */
+}
 
 
 
