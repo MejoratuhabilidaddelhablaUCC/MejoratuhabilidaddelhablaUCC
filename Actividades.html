@@ -93,5 +93,33 @@
             likesCountElement.textContent = currentLikes + 1;
         }
     </script>
+		<script>
+    // Función para agregar likes y guardar en localStorage
+    function addLike(button) {
+        // Obtener el elemento de conteo de likes dentro del comentario
+        var likesCountElement = button.nextElementSibling;
+
+        // Obtener el valor actual de likes desde localStorage
+        var currentLikes = parseInt(localStorage.getItem('likes')) || 0;
+
+        // Incrementar el valor de likes y guardar en localStorage
+        currentLikes++;
+        localStorage.setItem('likes', currentLikes);
+
+        // Actualizar el texto para mostrar la cantidad actual de likes
+        likesCountElement.textContent = currentLikes;
+    }
+
+    // Función para cargar los likes guardados en localStorage al cargar la página
+    window.addEventListener('load', function () {
+        var currentLikes = parseInt(localStorage.getItem('likes')) || 0;
+
+        // Actualizar los elementos con la cantidad de likes
+        var likesCountElements = document.querySelectorAll('.likes-count');
+        likesCountElements.forEach(function (element) {
+            element.textContent = currentLikes;
+        });
+    });
+</script>
 </body>
 </html>
