@@ -221,6 +221,14 @@ section {
     flex: 1; /* Permite que cada div ocupe la misma cantidad de espacio disponible */
     margin: 10px; /* Agrega margen entre los elementos */
 }
+.customi-container {
+    border: 2px solid #ccc; /* Agrega un borde alrededor del cuadro */
+    padding: 20px; /* Agrega relleno interno para separar el contenido del borde */
+    margin: 20px; /* Agrega un margen para espaciar el cuadro de otras partes */
+    background-color: #f9f9f9; /* Cambia el color de fondo del cuadro */
+    border-radius: 10px; /* Agrega bordes redondeados al cuadro */
+    overflow: hidden; /* Evita que el contenido flote fuera del cuadro si es demasiado grande */
+}
 
 
 
