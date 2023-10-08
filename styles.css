@@ -192,8 +192,10 @@ h2 {
 h3 {
   color: var(--color-secundario);
 }
+p {
+  text-align: justify;
+}
 
-/* Puedes utilizar las variables en cualquier parte de tu CSS */
 
 
 
