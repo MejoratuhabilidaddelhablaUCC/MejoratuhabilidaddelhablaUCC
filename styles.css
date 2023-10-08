@@ -206,8 +206,12 @@ div h3 {
     padding: 30px;
     border-radius: 15px;
 }
+.improved-section {
+    margin-top: 90px; /* Agrega margen superior para separar las secciones */
+    background-color: #f2f2f2;
+    padding: 30px;
+    border-radius: 15px;
 
-/* Resto de estilos para .comments-section */
 
 
 
