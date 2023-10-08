@@ -211,6 +211,16 @@ div h3 {
     background-color: #f2f2f2;
     padding: 30px;
     border-radius: 15px;
+section {
+    display: flex; /* Utiliza flexbox para alinear los elementos en forma horizontal */
+    justify-content: space-between; /* Distribuye los elementos uniformemente en el espacio disponible */
+}
+
+.person {
+    text-align: center; /* Centra el contenido horizontalmente */
+    flex: 1; /* Permite que cada div ocupe la misma cantidad de espacio disponible */
+    margin: 10px; /* Agrega margen entre los elementos */
+}
 
 
 
