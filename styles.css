@@ -197,6 +197,10 @@ p {
                 <li><i class="fas fa-check"></i> Mejorar tus relaciones interpersonales.</li>
                 <li><i class="fas fa-check"></i> Incrementar tu autoconfianza.</li>
                 <li><i class="fas fa-check"></i> Mejorar tus oportunidades de trabajo.</li>
+div h3 {
+    color: black; /* Puedes reemplazar "red" con el color que desees, como "blue", "green", "#FFA500", etc. */
+}
+
 
 
 
