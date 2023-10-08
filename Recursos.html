@@ -5,48 +5,6 @@
         <meta charset="UTF-8">
 	<link rel="stylesheet" href="styles.css">
 	<style>
-        /* Estilos CSS para la sección de comentarios */
-        .comments-section {
-            background-color: #f2f2f2;
-            padding: 20px;
-            border-radius: 10px;
-        }
-
-        .comment {
-            border: 1px solid #ccc;
-            margin-bottom: 10px;
-            padding: 10px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            border-radius: 5px;
-            background-color: #fff;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        }
-
-        .comment p {
-            flex-grow: 1;
-        }
-
-        .like-button {
-            background-color: #3498db;
-            color: #fff;
-            padding: 5px 10px;
-            cursor: pointer;
-            border: none;
-            border-radius: 5px;
-            transition: background-color 0.3s ease;
-        }
-
-        .like-button:hover {
-            background-color: #2980b9;
-        }
-
-        .likes-count {
-            margin-left: 10px;
-            font-weight: bold;
-        }
-    </style>
 </head>
 <body>
 	<header>
@@ -63,75 +21,15 @@
 	</header>
 <section class="custom-section">
     <div class="custom-container">
-          <h2>Libros digitales</h2>
-	    <h3>Interpretación de Personaje para Halloween</h3>
+          <h2>Libros digitales y físicos</h2>
+	    <h3>En esta sección encontrarás libros digitales de dominio público y libros físicos que pueden ser intercambiados.</h3>
+	    <h3>Libros digitales</h3>
         <p>Puedes agregar más párrafos o elementos según sea necesario.</p>
     </div>
 </section>
-	<section id="quienes-somos">
-	<section class="comments-section">
-        <h2>Actividades realizadas</h2>
-        <div class="comment">
-            <h3>¿Te gustó la actividad del producto loco?</h3>
-            <button class="like-button" onclick="addLike(this)">Like</button>
-            <span class="likes-count">0</span>
-        </div>
-        <div class="comment">
-            <h3>¿Te gustó la actividad de dos verdades y una mentira?</h3>
-            <button class="like-button" onclick="addLike(this)">Like</button>
-            <span class="likes-count">0</span>
-        </div>
-		<div class="comment">
-            <h3>¿Te gustó la actividad de la ruleta conversadora?</h3>
-            <button class="like-button" onclick="addLike(this)">Like</button>
-            <span class="likes-count">0</span>
-        </div>
-        <!-- Puedes agregar más comentarios aquí -->
-    </section>
+	
     <footer>
         <p>Derechos reservados - ¡Mi sitio web!</p>
     </footer>
-
-    <script>
-        // Función para agregar likes
-        function addLike(button) {
-            // Obtener el elemento de conteo de likes dentro del comentario
-            var likesCountElement = button.nextElementSibling;
-
-            // Obtener el valor actual de likes
-            var currentLikes = parseInt(likesCountElement.textContent);
-
-            // Incrementar el valor de likes y actualizar el texto
-            likesCountElement.textContent = currentLikes + 1;
-        }
-    </script>
-		<script>
-    // Función para agregar likes y guardar en localStorage
-    function addLike(button) {
-        // Obtener el elemento de conteo de likes dentro del comentario
-        var likesCountElement = button.nextElementSibling;
-
-        // Obtener el valor actual de likes desde localStorage
-        var currentLikes = parseInt(localStorage.getItem('likes')) || 0;
-
-        // Incrementar el valor de likes y guardar en localStorage
-        currentLikes++;
-        localStorage.setItem('likes', currentLikes);
-
-        // Actualizar el texto para mostrar la cantidad actual de likes
-        likesCountElement.textContent = currentLikes;
-    }
-
-    // Función para cargar los likes guardados en localStorage al cargar la página
-    window.addEventListener('load', function () {
-        var currentLikes = parseInt(localStorage.getItem('likes')) || 0;
-
-        // Actualizar los elementos con la cantidad de likes
-        var likesCountElements = document.querySelectorAll('.likes-count');
-        likesCountElements.forEach(function (element) {
-            element.textContent = currentLikes;
-        });
-    });
-</script>
 </body>
 </html>
