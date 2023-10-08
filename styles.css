@@ -159,7 +159,7 @@ body {
     background-size: cover; /* Ajusta la imagen para cubrir completamente el contenedor */
     /* Opciones adicionales */
     /* background-size: contain; */ /* Ajusta la imagen para que quepa completamente sin recortar */
-    /* background-size: 100% 100%; */ /* Estira la imagen para llenar completamente el contenedor */
+    /* background-size: 60% 60; */ /* Estira la imagen para llenar completamente el contenedor */
 }
 .custom-section {
     background-color: #f9f9f9; /* Color de fondo */
@@ -192,13 +192,6 @@ body {
 /* Luego, utiliza las variables en tu diseño */
 body {
   background: linear-gradient(to bottom right, var(--color-primario), var(--color-secundario), var(--color-terciario), var(--color-fondo));
-}
-
-section.improved-section {
-  background-image: url('descarga.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 /* Otras reglas de estilo usando las variables */
