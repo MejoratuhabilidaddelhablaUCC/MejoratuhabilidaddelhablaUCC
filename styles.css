@@ -229,6 +229,42 @@ section {
     border-radius: 10px; /* Agrega bordes redondeados al cuadro */
     overflow: hidden; /* Evita que el contenido flote fuera del cuadro si es demasiado grande */
 }
+/* Estilos para la lista de libros */
+.book-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0;
+}
+
+/* Estilos para cada elemento de libro */
+.book-item {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Estilos para el enlace de libro */
+.book-item a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    margin-top: 10px;
+}
+
+/* Estilos para los títulos de libro */
+.book-item img {
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilos para los títulos de libro */
+.book-item h4 {
+    font-size: 14px;
+    margin-top: 5px;
+}
 
 
 
