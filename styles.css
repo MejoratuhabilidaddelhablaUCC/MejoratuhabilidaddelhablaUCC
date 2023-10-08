@@ -151,10 +151,15 @@ body {
     margin-top: -300px; /* Ajusta este valor según sea necesario */
 }
 .improved-section {
-    background-image: url('descarga.jpg');
-    background-size: cover; /* Ajusta el tamaño de la imagen al contenedor */
+    background-image: url('imagen-de-alta-resolucion.jpg');
     background-repeat: no-repeat; /* Evita la repetición de la imagen */
     background-position: center; /* Centra la imagen en la sección */
+
+    /* Diferentes valores para background-size */
+    background-size: cover; /* Ajusta la imagen para cubrir completamente el contenedor */
+    /* Opciones adicionales */
+    /* background-size: contain; */ /* Ajusta la imagen para que quepa completamente sin recortar */
+    /* background-size: 100% 100%; */ /* Estira la imagen para llenar completamente el contenedor */
 }
 .custom-section {
     background-color: #f9f9f9; /* Color de fondo */
