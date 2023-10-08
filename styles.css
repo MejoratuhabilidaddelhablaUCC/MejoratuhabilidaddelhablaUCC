@@ -156,6 +156,26 @@ body {
     background-repeat: no-repeat; /* Evita la repetición de la imagen */
     background-position: center; /* Centra la imagen en la sección */
 }
+.custom-section {
+    background-color: #f9f9f9; /* Color de fondo */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 10px; /* Bordes redondeados */
+    margin-top: 20px; /* Espacio superior entre secciones */
+}
+
+.custom-container {
+    text-align: center; /* Centrar el contenido horizontalmente */
+}
+
+.custom-container h2 {
+    font-size: 24px; /* Tamaño del título */
+    margin-bottom: 10px; /* Espacio inferior del título */
+}
+
+.custom-container p {
+    font-size: 16px; /* Tamaño del texto */
+    margin-bottom: 10px; /* Espacio inferior entre párrafos */
+}
 
 
 
