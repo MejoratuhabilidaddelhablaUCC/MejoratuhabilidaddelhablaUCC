@@ -201,7 +201,7 @@ div h3 {
     color: black; /* Puedes reemplazar "red" con el color que desees, como "blue", "green", "#FFA500", etc. */
 }
 .comments-section {
-    margin-top: 70px; /* Agrega margen superior para separar las secciones */
+    margin-top: 130px; /* Agrega margen superior para separar las secciones */
     background-color: #f2f2f2;
     padding: 30px;
     border-radius: 15px;
