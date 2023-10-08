@@ -147,7 +147,7 @@ body {
     transform: rotateY(0deg); /* Restaura la rotación a 0 grados al pasar el cursor */
 }
 .comments-section h2 {
-    margin-top: -20px; /* Ajusta este valor según sea necesario */
+    margin-top: -300px; /* Ajusta este valor según sea necesario */
 }
 
 
