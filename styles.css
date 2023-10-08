@@ -59,12 +59,10 @@ main {
     margin-top: 80px;
 }
 
-
-	section {
+section {
     padding: 80px;
     text-align: center;
-    background: linear-gradient(to bottom, #3498db, #2eecc71, #f1c40f, #ff6b81);
-    background-size: cover;
+    background-color: #ffffff; /* verde claro */
 }
 
 
