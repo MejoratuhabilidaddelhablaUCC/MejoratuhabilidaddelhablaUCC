@@ -181,6 +181,37 @@ body {
     font-size: 16px; /* Tamaño del texto */
     margin-bottom: 10px; /* Espacio inferior entre párrafos */
 }
+/* Define las variables para los colores */
+:root {
+  --color-primario: #3498db; /* Azul */
+  --color-secundario: #2ecc71; /* Verde */
+  --color-terciario: #f1c40f; /* Amarillo */
+  --color-fondo: #ff6b81; /* Rojo */
+}
+
+/* Luego, utiliza las variables en tu diseño */
+body {
+  background: linear-gradient(to bottom right, var(--color-primario), var(--color-secundario), var(--color-terciario), var(--color-fondo));
+}
+
+section.improved-section {
+  background-image: url('descarga.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Otras reglas de estilo usando las variables */
+/* Por ejemplo: */
+h2 {
+  color: var(--color-primario);
+}
+
+h3 {
+  color: var(--color-secundario);
+}
+
+/* Puedes utilizar las variables en cualquier parte de tu CSS */
 
 
 
